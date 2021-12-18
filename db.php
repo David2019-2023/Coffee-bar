@@ -22,4 +22,4 @@ $phone = $_POST['phone'];
 
 $insert_sql = "INSERT INTO `shop`(`fio`, `email`, `phone`) VALUES ('$fio','$email','$phone')";
 $result = mysqli_query($connection, $insert_sql);
-?>
+?>/**/

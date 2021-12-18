@@ -47,7 +47,7 @@ if (!empty($file['name'][0])) {
         $filename = $file['name'][$ct];
         if (move_uploaded_file($file['tmp_name'][$ct], $uploadfile)) {
             $mail->addAttachment($uploadfile, $filename);
-            $rfile[] = "Файл $filename прикреплён";
+            $rfile[] = "Файл $filename прикреплён'";
         } else {
             $rfile[] = "Не удалось прикрепить файл $filename";
         }

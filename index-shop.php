@@ -98,7 +98,7 @@ require "db.php";
 
     <div id="modal">
         <form action="index-shop.php" method="POST">
-            <input type="text" name="fio" placeholder="Укажите ФИО">
+            <input type="text" name="fio" placeholder="Укажите ФИО'">
             <input type="text" name="email" placeholder="Укажите e-mail">
             <input type="text" name="phone" placeholder="Ваш телефон">
             <input type="submit" value="Отправить">
