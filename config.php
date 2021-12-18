@@ -8,3 +8,4 @@ $config=array(
         'name'=>'shop__db'
     )
 );
+/**/

@@ -16,6 +16,6 @@ $phone = trim($phone);
 if (mail("david.adamchik69@mail.ru", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email ,"From: OnlyCoffee@mail.ru \r\n"))
  {     echo "сообщение успешно отправлено";
 } else {
-    echo "при отправке сообщения возникли ошибки";
+    echo "при отправке сообщения возникли ошибки'";
 }?>
 
